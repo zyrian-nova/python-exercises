@@ -18,14 +18,14 @@ To run the exercises, you'll need:
 
 ## 🚀 Getting Started
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/zyrian-nova/python-exercises.git
-   cd python-exercises
-   ```
-2.- Run any Python file:
-    ```bash
-    python3 filename.py
-    ```
+```bash
+git clone https://github.com/zyrian-nova/python-exercises.git
+cd python-exercises
+```
+2. Run any Python file:
+```bash
+python3 filename.py
+```
 
 ## 🌟 Features
 - Beginner-friendly exercises with step-by-step comments.
