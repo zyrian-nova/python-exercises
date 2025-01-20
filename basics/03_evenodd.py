@@ -8,3 +8,4 @@ if num % 2 == 0:
     print(f"The number {num} it's even.")
 else:
     print(f"The number {num} it's odd.")
+    
