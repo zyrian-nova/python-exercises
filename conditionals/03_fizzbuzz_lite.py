@@ -11,14 +11,17 @@ Example Output:
 Enter a number: 15
 FizzBuzz
 """
-num = int(input("Enter a number: "))
+try:
+    num = int(input("Enter a number: "))
+except ValueError:
+    print("Invalid input. Please enter a valid number.")
+    exit()
 
-if num % 5 == 0:
-    if num % 3 == 0:
-        print("FizzBuzz")
-    else:
-        print("Buzz")
+if num % 5 == 0 and num % 3 == 0:
+    print("FizzBuzz")
 elif num % 3 == 0:
     print("Fizz")
+elif num % 5 == 0:
+    print("Buzz")
 else:
     print(f"The number {num} can't Fizz or Buzz.")

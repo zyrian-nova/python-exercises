@@ -13,11 +13,17 @@ CHILDREN = 10
 SENIOR = 8
 
 print("Welcome to the cinema!")
-age = int(input("Please enter your age: "))
+try:
+    age = int(input("Please enter your age: "))
+except ValueError:
+    print("Invalid input. Please enter a valid number for age.")
+    exit()
 
 if age <= 12:
-    print(f"Ticket price: {CHILDREN}")
+    print(f"Ticket price: ${CHILDREN}")
 elif age >= 65:
-    print(f"Ticket price: {SENIOR}")
+    print(f"Ticket price: ${SENIOR}")
 else:
-    print(f"Ticket price: {REGULAR}")
+    print(f"Ticket price: ${REGULAR}")
+
+print("Thank you for visiting the cinema! Enjoy your movie! 🎥")
