@@ -45,3 +45,4 @@ Contributions are welcome! If you have an idea for a new exercise or find a bug,
 ## 🛡️ License
 This repository is licensed under the MIT License. Feel free to use, modify, and distribute the code.
 
+Happy coding!
