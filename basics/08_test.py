@@ -10,7 +10,7 @@ End the game when the user guesses correctly and display the number of attempts.
 """
 import random
 
-increment = 1
+counter = 1 # pylint: disable=invalid-name
 rng = random.randint(1,100)
 
 print("Welcome to the Number Guessing Game!")
@@ -22,14 +22,13 @@ while True:
         if usernum < 1 or usernum > 100:
             print("Please enter a number between 1 and 100!")
             continue
-
         if usernum > rng:
             print("Too high!")
         elif usernum < rng:
             print("Too low")
         else:
-            print(f"Congratulations! You gessed the number in {increment} tries, you're a wizard Harry! 🧙‍")
+            print(f"Congratulations! You gessed the number in {counter} tries, you're a wizard Harry! 🧙‍")
             break
-        increment += 1
+        counter += 1
     except ValueError:
         print("Invalid input. Please enter a valid number.")
