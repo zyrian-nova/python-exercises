@@ -2,5 +2,5 @@
 Write a program that outputs "Hello world!" to the console.
 """
 print("Hello world!")
-message = "Bye!"
-print(message)
+MESSAGE = "Bye!"
+print(MESSAGE)
