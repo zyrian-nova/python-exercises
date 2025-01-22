@@ -9,8 +9,8 @@ Write a program that:
 Prompts the user for their total purchase amount and membership status (yes or no for "premium").
 Calculates and displays the final price after applying any applicable discounts.
 """
-discount = 0
-membership_discount = 0
+discount = 0 # pylint: disable=invalid-name
+membership_discount = 0 # pylint: disable=invalid-name
 
 print("Welcome to the automatic purchase program!")
 
